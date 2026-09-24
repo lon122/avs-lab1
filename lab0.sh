@@ -110,6 +110,10 @@ chmod u=rw,g=r,o= ~/lab0/claude_monet/kitchen/cold_station/fish_order
 
 chmod u=rw,g=r,o= ~/lab0/delivery_call
 
+git add
+git commit -m "part1"
+git push origin master
+
 3
 
 cp ~/lab0/delivery_call ~/lab0/claude_monet/office/call_copy
@@ -129,6 +133,10 @@ cat ~/lab0/claude_monet/meat_delivery/senya_invoice \
 cat ~/lab0/claude_monet/warehouse/rejection_log >> ~/lab0/claude_monet/kitchen/hot_station/barinov_claim
 
 mv ~/lab0/claude_monet/kitchen/cold_station/fish_order ~/lab0/claude_monet/office/urgent_fish_order
+
+git add
+git commit -m "part2"
+git push 
 
 4
 
@@ -165,3 +173,6 @@ rmdir ~/lab0/claude_monet/kitchen/cold_station
 rm ~/lab0/claude_monet/warehouse/rejection_log
 
 rm -r ~/lab0/claude_monet/warehouse/fish_backup
+git add
+git commit -m "part3"
+git push 
