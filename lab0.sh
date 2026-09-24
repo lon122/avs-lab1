@@ -1,4 +1,4 @@
-1
+
 
 mkdir -p ~/lab0/claude_monet/warehouse
 
@@ -72,7 +72,7 @@ cat > ~/lab0/delivery_call <<'EOF'
 Лёва должен открыть склад
 EOF
 
-2
+
 
 chmod 755 ~/lab0/claude_monet
 
@@ -114,7 +114,6 @@ git add
 git commit -m "part1"
 git push origin master
 
-3
 
 cp ~/lab0/delivery_call ~/lab0/claude_monet/office/call_copy
 
@@ -138,7 +137,6 @@ git add
 git commit -m "part2"
 git push 
 
-4
 
 ls -lR ~/lab0 | grep '^-' | grep -v 'copy' | sort -k5 -n | tail -n 5
 
@@ -156,7 +154,6 @@ find ~/lab0 -type f -links 2 -ls | sort -k1,1 -n
 
 ls -lR ~/lab0 | grep '^l' | sort -k9 | tail -n 1
 
-5
 
 rm ~/lab0/claude_monet/office/call_copy
 
