@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 mkdir -p ~/lab0/claude_monet/warehouse
 
