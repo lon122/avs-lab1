@@ -152,7 +152,7 @@ grep -vi 'поставщик' ~/avs-lab1/lab0/claude_monet/warehouse/all_invoice
 
 find ~/avs-lab1/lab0 -type f -links 2 -ls | sort -k1,1 -n
 
-ls -lR ~/avs-lab1/lab0 | grep '^l' | sort -k9 | tail -n 1
+ls -lR ~/avs-lab1/lab0 | grep '^l' | sort -k9 | tail -n 5
 
 
 rm ~/avs-lab1/lab0/claude_monet/office/call_copy
